@@ -1,0 +1,22 @@
+{
+  "name": "bat",
+  "version": "1.0.0",
+  "description": "Blockchain as Network - a new world wide web.",
+  "main": "bat-node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/montyanderson/bat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/montyanderson/bat/issues"
+  },
+  "homepage": "https://github.com/montyanderson/bat#readme",
+  "dependencies": {
+    "web3": "^0.19.0"
+  }
+}
