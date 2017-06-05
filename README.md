@@ -5,6 +5,10 @@ Blockchain as Network - a new world wide web.
 
 *bat* is an always-on, decentralised network  hosted on the [Ethereum](https://www.ethereum.org/) blockchain. Users can browse an autonomous, unrestricted web, free of censorship, tracking or authority. Creators can publish content without needing to be themselves a host, or be responsible for delivery.
 
+## Disclaimer
+
+*bat* is a hobby project written by a hobiest. There *will* be bugs, and no warranty is provided.
+
 ## Browsing the bat
 
 * [Install geth and bat-node](#install)
