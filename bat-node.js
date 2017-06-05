@@ -15,15 +15,23 @@ const server = http.createServer((req, res) => {
 	const file = split.slice(2).join("/");
 
 	try {
-		if(domain.trim() == "") {
-			throw new Error("");
+		process.stdout.write(`GET ${JSON.stringify(domain)} => ${JSON.stringify(file)}... `);
+
+		if(domain.trim() == "" || domain.split(".").length > 1) {
+			res.writeHead(404);
+			res.end();
+			process.stdout.write("not allowed\n");
+			return;
 		}
 
 		const data = Buffer.from(bat.getFile(domain, file)[2].slice(2), "hex").toString();
 		res.writeHead(200);
 		res.end(data);
+
+		process.stdout.write("success\n");
 	} catch(err) {
 		res.writeHead(404);
+		process.stdout.write("fail\n");
 	}
 });
 
