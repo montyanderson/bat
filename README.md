@@ -1,7 +1,11 @@
 # bat
 Blockchain as Network - a new world wide web.
 
-## Browsing
+## About
+
+*bat* is an always-on, decentralised network  hosted on the [Ethereum](https://www.ethereum.org/) blockchain. Users can browse an autonomous, unrestricted web, free of censorship, tracking or authority. Creators can publish content without needing to be themselves a host, or be responsible for delivery.
+
+## Browsing the bat
 
 * [Install geth and bat-node](#install)
 
@@ -11,7 +15,7 @@ Blockchain as Network - a new world wide web.
 $ geth --rpc console
 ```
 
-* Open another terminal and
+* Open another terminal and bat-node
 
 ```
 $ node bat-node.js
